@@ -22,6 +22,9 @@ apt-get dist-upgrade -y ${APTARGS}
 
 apt-get install -y redis ${APTARGS}
 
+# wget
+apt-get install -y wget ${APTARGS}
+
 
 
 # Update to the latest kernel
